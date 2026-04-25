@@ -5,6 +5,7 @@
 
 
 🧹 Brigade-Management-System
+
 This Project is A web application built with ASP.NET Core (MVC) to manage community cleaning brigades, including zones, participants, and activities for better organization and tracking.
 
 
@@ -16,10 +17,12 @@ The Brigade Management System is a web application developed with ASP.NET Core (
 
 
 🛠 Technologies
+
 ASP.NET Core 8: Framework for building modern web applications.
 Entity Framework Core: ORM for data access.
 Bootstrap: CSS framework for styling.
 
 
 🧩 By
+
 HEYKEL D' LA CRUZ 
