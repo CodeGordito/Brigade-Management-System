@@ -22,6 +22,6 @@ Entity Framework Core: ORM for data access.
 Bootstrap: CSS framework for styling.
 
 
-🧩 By
+💻 Developed By
 ----------------------------------------------------------------------------------------------------------
 HEYKEL D' LA CRUZ 
