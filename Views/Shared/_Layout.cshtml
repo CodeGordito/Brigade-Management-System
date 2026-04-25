@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - GestorBrigadasComunitarias</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body class="dark-dashboard-body">
+    <div class="dashboard-shell">
+        <aside class="dashboard-sidebar">
+            <div class="sidebar-brand">
+                <h3>Brigadas</h3>
+                <span>Brigade Management System</span>
+            </div>
+            
+
+            <nav class="sidebar-nav">
+                <a asp-controller="Home" asp-action="Index" class="sidebar-link">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>Dashboard</span>
+                </a>
+
+                <a asp-controller="Voluntarios" asp-action="Index" class="sidebar-link">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Voluntarios</span>
+                </a>
+
+                <a asp-controller="Zonas" asp-action="Index" class="sidebar-link">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Zonas</span>
+                </a>
+
+                <a asp-controller="Jornadas" asp-action="Index" class="sidebar-link">
+                    <i class="fa-solid fa-broom"></i>
+                    <span>Jornadas</span>
+                </a>
+
+                <a asp-controller="Participaciones" asp-action="Index" class="sidebar-link">
+                    <i class="fa-solid fa-clipboard-check"></i>
+                    <span>Participaciones</span>
+                </a>
+
+                <a asp-controller="Materiales" asp-action="Index" class="sidebar-link">
+                    <i class="fa-solid fa-boxes-stacked"></i>
+                    <span>Materiales</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <small>GestorBrigadas v1.0</small>
+            </div>
+        </aside>
+
+        <div class="dashboard-main">
+            <header class="dashboard-topbar">
+                <div>
+                    <h4 class="topbar-title">Gestor de Brigadas</h4>
+                    <p class="topbar-subtitle">Dashboard de control</p>
+                </div>
+
+                <div class="topbar-actions">
+                    <span class="status-pill">Live Panel</span>
+                </div>
+            </header>
+
+            <main class="dashboard-content">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

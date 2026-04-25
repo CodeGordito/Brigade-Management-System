@@ -1,0 +1,50 @@
+﻿@model GestorBrigadasComunitarias.Models.Participacion
+
+@{
+    ViewData["Title"] = "Edit Participacion";
+}
+
+<div class="container-fluid">
+    <div class="dark-card p-4">
+        <h2 class="section-title mb-3">Edit Participacion</h2>
+
+        <form asp-action="Edit">
+            <input type="hidden" asp-for="Id" />
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="mb-3">
+                <label asp-for="VoluntarioId" class="form-label text-light"></label>
+                <select asp-for="VoluntarioId" class="form-control dark-input" asp-items="ViewBag.VoluntarioId"></select>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="JornadaId" class="form-label text-light"></label>
+                <select asp-for="JornadaId" class="form-control dark-input" asp-items="ViewBag.JornadaId"></select>
+            </div>
+
+            <div class="mb-3 form-check">
+                <input class="form-check-input" asp-for="Asistio" />
+                <label class="form-check-label text-light" asp-for="Asistio"></label>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="HorasTrabajadas" class="form-label text-light"></label>
+                <input asp-for="HorasTrabajadas" class="form-control dark-input" />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Observaciones" class="form-label text-light"></label>
+                <input asp-for="Observaciones" class="form-control dark-input" />
+            </div>
+
+            <button type="submit" class="btn btn-dark-blue">Save</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">Back</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

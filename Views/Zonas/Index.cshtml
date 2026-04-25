@@ -1,0 +1,70 @@
+﻿@model IEnumerable<GestorBrigadasComunitarias.Models.Zona>
+
+@{
+    ViewData["Title"] = "Zonas";
+}
+
+<div class="page-dark-area">
+
+    <!-- TÍTULO -->
+    <h1 class="page-title-dashboard">Zonas</h1>
+
+    <div class="dashboard-section">
+        <div class="dashboard-card">
+
+            <!-- HEADER -->
+            <div class="dashboard-card-header">
+                <div>
+                    <h2 class="dashboard-card-title">Listado de Zonas</h2>
+                    <p class="dashboard-card-subtitle">Últimos registros creados en el sistema.</p>
+                </div>
+
+                <a asp-action="Create" class="dashboard-btn-primary">
+                    + Nueva Zona
+                </a>
+            </div>
+
+            <!-- TABLA -->
+            <div class="dashboard-table-wrap">
+                <table class="dashboard-table">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Descripción</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="fw-semibold">@item.Nombre</td>
+                                <td>@item.Descripcion</td>
+
+                                <td>
+                                    <div class="dashboard-actions">
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn-edit-custom">
+                                            Editar
+                                        </a>
+
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn-details-custom">
+                                            Detalles
+                                        </a>
+
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn-delete-custom">
+                                            Eliminar
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,159 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.RootNamespace = GestorBrigadasComunitarias
+build_property.RootNamespace = GestorBrigadasComunitarias
+build_property.ProjectDir = C:\Users\glady\Desktop\Tareas de Programacion II\GestorBrigadasComunitarias\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\glady\Desktop\Tareas de Programacion II\GestorBrigadasComunitarias
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Jornadas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ybmFkYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Jornadas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ybmFkYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Jornadas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ybmFkYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Jornadas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ybmFkYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Jornadas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9ybmFkYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Materiales/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Materiales/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Materiales/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Materiales/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Materiales/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Participaciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhY2lvbmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Participaciones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhY2lvbmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Participaciones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhY2lvbmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Participaciones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhY2lvbmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Participaciones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGljaXBhY2lvbmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Voluntarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9sdW50YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Voluntarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9sdW50YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Voluntarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9sdW50YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Voluntarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9sdW50YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Voluntarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm9sdW50YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Zonas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWm9uYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Zonas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWm9uYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Zonas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWm9uYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Zonas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWm9uYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Zonas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWm9uYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/glady/Desktop/Tareas de Programacion II/GestorBrigadasComunitarias/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xpicdgr93v

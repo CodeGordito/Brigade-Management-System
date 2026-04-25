@@ -1,0 +1,111 @@
+﻿@model IEnumerable<GestorBrigadasComunitarias.Models.Jornada>
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container-fluid">
+    <div class="mb-4">
+        <h1 class="section-title">Dashboard</h1>
+        <p class="section-subtitle">Resumen general del sistema de brigadas comunitarias.</p>
+    </div>
+
+    <div class="row g-4 mb-4">
+        <div class="col-md-3">
+            <div class="dark-card stat-card">
+                <div class="stat-title">Total Voluntarios</div>
+                <div class="stat-value">@ViewBag.TotalVoluntarios</div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="dark-card stat-card">
+                <div class="stat-title">Total Zonas</div>
+                <div class="stat-value">@ViewBag.TotalZonas</div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="dark-card stat-card">
+                <div class="stat-title">Total Jornadas</div>
+                <div class="stat-value">@ViewBag.TotalJornadas</div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="dark-card stat-card">
+                <div class="stat-title">Total Participaciones</div>
+                <div class="stat-value">@ViewBag.TotalParticipaciones</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 mb-4">
+        <div class="col-md-4">
+            <div class="dark-card quick-panel">
+                <a asp-controller="Voluntarios" asp-action="Index" class="quick-link-dark">
+                    <i class="fa-solid fa-users"></i> Manage Voluntarios
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="dark-card quick-panel">
+                <a asp-controller="Jornadas" asp-action="Index" class="quick-link-dark">
+                    <i class="fa-solid fa-broom"></i> Manage Jornadas
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="dark-card quick-panel">
+                <a asp-controller="Zonas" asp-action="Index" class="quick-link-dark">
+                    <i class="fa-solid fa-location-dot"></i> Manage Zonas
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="dark-card p-4">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <h4 class="mb-1">Recent Jornadas</h4>
+                <p class="section-subtitle">Últimos registros creados en el sistema.</p>
+            </div>
+            <a asp-controller="Jornadas" asp-action="Index" class="btn btn-dark-blue">View All</a>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table-dark-custom">
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Fecha</th>
+                        <th>Lugar</th>
+                        <th>Zona</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Titulo</td>
+                                <td>@item.Fecha.ToShortDateString()</td>
+                                <td>@item.Lugar</td>
+                                <td>@item.Zona?.Nombre</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4" class="empty-text">No hay jornadas registradas todavía.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

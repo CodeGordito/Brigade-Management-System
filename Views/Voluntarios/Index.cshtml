@@ -1,0 +1,53 @@
+﻿@model IEnumerable<GestorBrigadasComunitarias.Models.Voluntario>
+
+@{
+    ViewData["Title"] = "Voluntarios";
+}
+
+<div class="page-dark-area">
+    <div class="dashboard-section">
+        <div class="dashboard-card">
+            <div class="dashboard-card-header">
+                <div>
+                    <h2 class="dashboard-card-title">Voluntarios</h2>
+                    <p class="dashboard-card-subtitle">Últimos registros creados en el sistema.</p>
+                </div>
+                <a asp-action="Create" class="dashboard-btn-primary">Nuevo Voluntario</a>
+            </div>
+
+            <div class="dashboard-table-wrap">
+                <table class="dashboard-table">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Cédula</th>
+                            <th>Teléfono</th>
+                            <th>Correo</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Nombre</td>
+                                <td>@item.Apellido</td>
+                                <td>@item.Cedula</td>
+                                <td>@item.Telefono</td>
+                                <td>@item.Correo</td>
+                                <td>
+                                    <div class="dashboard-actions">
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn-edit-custom">Editar</a>
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn-details-custom">Detalles</a>
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn-delete-custom">Eliminar</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
