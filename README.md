@@ -6,8 +6,7 @@
 
 🧹 Brigade-Management-System
 ----------------------------------------------------------------------------------------------------------
-The Brigade Management System is a web application developed with ASP.NET Core (MVC) designed to organize and manage community cleaning initiatives. It provides tools to handle zones, participants, and activities, allowing users to efficiently register, monitor, and coordinate brigade operations. The system offers a structured and user-friendly interface that helps improve planning, tracking, and overall management of community cleanup efforts.
-
+My project is a web application developed with ASP.NET Core (MVC) designed to manage community cleaning brigades. It allows users to organize and manage zones, participants, and days, making it easier to register and track brigade operations. The system provides a structured interface to create, view, and manage data, helping improve the planning and coordination of community cleaning efforts.
 
 
 📋 Overview
