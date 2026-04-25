@@ -2,7 +2,7 @@
 
 <img width="1914" height="860" alt="image" src="https://github.com/user-attachments/assets/d411b8ce-7e4d-43b7-bb8c-19c69b745d58" />
 
-
+----------------------------------------------------------------------------------------------------------
 
 🧹 Brigade-Management-System
 ----------------------------------------------------------------------------------------------------------
@@ -17,12 +17,12 @@ The Brigade Management System is a web application developed with ASP.NET Core (
 
 
 🛠 Technologies
-
+----------------------------------------------------------------------------------------------------------
 ASP.NET Core 8: Framework for building modern web applications.
 Entity Framework Core: ORM for data access.
 Bootstrap: CSS framework for styling.
 
 
 🧩 By
-
+----------------------------------------------------------------------------------------------------------
 HEYKEL D' LA CRUZ 
